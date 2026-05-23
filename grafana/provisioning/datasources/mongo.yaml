@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: MongoDB
+    type: grafana-mongodb-datasource
+    access: proxy
+    url: mongodb://mongo:27017
+    database: claude_observability
+    isDefault: true

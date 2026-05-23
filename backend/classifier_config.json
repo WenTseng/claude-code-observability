@@ -1,0 +1,14 @@
+{
+  "toolWhitelist": {
+    "Edit":        { "category": "Code",  "L1": "Edit",    "L2": "file-edit" },
+    "Write":       { "category": "Code",  "L1": "Edit",    "L2": "file-write" },
+    "Read":        { "category": "Docs",  "L1": "Read",    "L2": "file-read" },
+    "Bash":        { "category": "Debug", "L1": "Debug",   "L2": "shell" },
+    "Glob":        { "category": "Docs",  "L1": "Explore", "L2": "glob" },
+    "Grep":        { "category": "Docs",  "L1": "Explore", "L2": "grep" }
+  },
+  "categories": ["Code", "Debug", "Docs", "Test", "Refactor", "Other"],
+  "system_prompt": "You are a code assistant intent classifier. Given the user's prompt text, classify the primary intent into one of: Code, Debug, Docs, Test, Refactor, Other. Respond with JSON: {\"title\": \"<5-word summary>\", \"L1\": \"<category>\", \"L2\": \"<specific-action>\", \"codeType\": \"<language-or-null>\", \"reason\": \"<one sentence>\"}",
+  "llm_model": "claude-haiku-4-5-20251001",
+  "llm_temperature": 0
+}

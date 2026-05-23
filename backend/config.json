@@ -1,0 +1,6 @@
+{
+  "data_file": "data/otel-logs.jsonl",
+  "ingest_batch_size": 200,
+  "build_turns_batch_size": 500,
+  "classifier_config": "backend/classifier_config.json"
+}
